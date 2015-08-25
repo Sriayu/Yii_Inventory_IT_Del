@@ -1,0 +1,1037 @@
+2014/06/18 15:22:14 [error] [php] Undefined index: id (C:\xampp\htdocs\PA\yii\framework\web\CSqlDataProvider.php:119)
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(129): CGridView->renderKeys()
+#1 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(173): CGridView->run()
+#2 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\Sudah.php(14): LoanController->widget()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): LoanController->renderInternal()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): LoanController->renderFile()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): LoanController->renderPartial()
+#7 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(388): LoanController->render()
+#8 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionSudah()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): LoanController->runAction()
+#11 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): LoanController->filterAccessControl()
+#14 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): LoanController->runActionWithFilters()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): LoanController->run()
+#18 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CWebApplication->run()
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/Sudah
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\Sudah.php (14)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (388)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 15:22:16 [error] [php] Undefined index: id (C:\xampp\htdocs\PA\yii\framework\web\CSqlDataProvider.php:119)
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(129): CGridView->renderKeys()
+#1 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(173): CGridView->run()
+#2 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\Sudah.php(14): LoanController->widget()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): LoanController->renderInternal()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): LoanController->renderFile()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): LoanController->renderPartial()
+#7 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(388): LoanController->render()
+#8 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionSudah()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): LoanController->runAction()
+#11 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): LoanController->filterAccessControl()
+#14 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): LoanController->runActionWithFilters()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): LoanController->run()
+#18 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CWebApplication->run()
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/Sudah
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\Sudah.php (14)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (388)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 15:26:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous. The SQL statement executed was: SELECT id, account.name, inventory.name_inventory, date_loan, date_return, quantity_loan
+                            FROM loan
+                            INNER JOIN account 
+                            ON account.id = loan.id_user
+                            INNER JOIN inventory
+                            ON inventory.code_inventory = loan.code_inventory
+                                WHERE status_apporval = 1 LIMIT 10.
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\Sudah.php (14)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (388)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 15:26:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous. The SQL statement executed was: SELECT id, account.name, inventory.name_inventory, date_loan, date_return, quantity_loan
+                            FROM loan
+                            INNER JOIN account 
+                            ON account.id = loan.id_user
+                            INNER JOIN inventory
+                            ON inventory.code_inventory = loan.code_inventory
+                                WHERE status_apporval = 1 LIMIT 10' in C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\PA\yii\framework\web\CSqlDataProvider.php(108): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(168): CSqlDataProvider->fetchData()
+#3 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
+#4 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(147): CGridView->init()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#7 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\Sudah.php(14): CBaseController->widget('zii.widgets.gri...', Array)
+#8 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): CController->renderPartial('Sudah', Array, true)
+#12 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(388): CController->render('Sudah', Array)
+#13 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionSudah()
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Sudah')
+#23 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/Sudah')
+#24 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/Sudah
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=site/index
+---
+2014/06/18 15:35:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Sudah".' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(270): CController->missingAction('Sudah')
+#1 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Sudah')
+#2 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/Sudah')
+#3 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/Sudah
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=site/index
+---
+2014/06/18 15:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "BelumSetuju".' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(270): CController->missingAction('BelumSetuju')
+#1 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#2 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ExportInventory...')
+#3 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/Sudah
+---
+2014/06/18 15:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "BelumSetuju".' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(270): CController->missingAction('BelumSetuju')
+#1 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#2 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ExportInventory...')
+#3 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+---
+2014/06/18 15:36:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "BelumSetuju".' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(270): CController->missingAction('BelumSetuju')
+#1 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#2 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ExportInventory...')
+#3 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+---
+2014/06/18 15:37:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "BelumSetuju".' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(270): CController->missingAction('BelumSetuju')
+#1 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#2 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ExportInventory...')
+#3 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+---
+2014/06/18 15:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "BelumSetuju".' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(270): CController->missingAction('BelumSetuju')
+#1 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#2 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ExportInventory...')
+#3 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=ExportInventory/BelumSetuju
+---
+2014/06/18 15:40:10 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== NULL AND status_loan == NULL' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM loan WHERE status_apporval == NULL AND status_loan == NULL.
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (405)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 15:40:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== NULL AND status_loan == NULL' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM loan WHERE status_apporval == NULL AND status_loan == NULL' in C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(405): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionBelumSetuju()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/BelumSetuj...')
+#13 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/admin
+---
+2014/06/18 15:54:27 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval = .
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\belumSetuju.php (51)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (337)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 15:54:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval = ' in C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\PA\yii\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#8 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\belumSetuju.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): CController->renderPartial('belumSetuju', Array, true)
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(337): CController->render('belumSetuju', Array)
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionBelumSetuju()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/BelumSetuj...')
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/SudahKembali
+---
+2014/06/18 15:54:41 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval == .
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\belumSetuju.php (51)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (337)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 15:54:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval == ' in C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\PA\yii\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#8 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\belumSetuju.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): CController->renderPartial('belumSetuju', Array, true)
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(337): CController->render('belumSetuju', Array)
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionBelumSetuju()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/BelumSetuj...')
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/SudahKembali
+---
+2014/06/18 15:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "BelumSetuju".' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(270): CController->missingAction('BelumSetuju')
+#1 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#2 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/BelumSetuj...')
+#3 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/SudahKembali
+---
+2014/06/18 16:05:05 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval = 1 AND status_loan = .
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\BelumKembali.php (51)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (335)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 16:05:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval = 1 AND status_loan = ' in C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\PA\yii\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#8 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\BelumKembali.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): CController->renderPartial('BelumKembali', Array, true)
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(335): CController->render('BelumKembali', Array)
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionBelumKembali()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumKembali')
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/BelumKemba...')
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/BelumKembali
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/BelumKembali
+---
+2014/06/18 16:05:37 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval = 1 AND status_loan = .
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\BelumKembali.php (51)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (335)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 16:05:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval = 1 AND status_loan = ' in C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\PA\yii\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#8 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\BelumKembali.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): CController->renderPartial('BelumKembali', Array, true)
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(335): CController->render('BelumKembali', Array)
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionBelumKembali()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumKembali')
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/BelumKemba...')
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/BelumKembali
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/BelumKembali
+---
+2014/06/18 16:09:28 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'status_loan0' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval = 0AND status_loan0.
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\sudahSetuju.php (51)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php (364)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/18 16:09:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'status_loan0' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `loan` `t` WHERE status_apporval = 0AND status_loan0' in C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\PA\yii\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\PA\yii\framework\web\CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#8 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\loan\sudahSetuju.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): CController->renderPartial('SudahSetuju', Array, true)
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\LoanController.php(364): CController->render('SudahSetuju', Array)
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): LoanController->actionBelumSetuju()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('BelumSetuju')
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('loan/BelumSetuj...')
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=loan/BelumSetuju
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/sudahSetuju
+---
+2014/06/20 04:07:51 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:08:54 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:09:09 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:09:18 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:09:40 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:10:54 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:11:07 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:12:07 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:12:18 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:14:05 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:14:16 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:16:52 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:16:57 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:17:08 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:17:39 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:18:02 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:19:43 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:20:42 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:20:54 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:21:04 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:22:19 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:23:22 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:25:54 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:28:46 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:29:34 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:31:40 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:32:30 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:34:06 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:35:22 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 04:39:31 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 06:14:59 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 06:15:26 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 06:53:25 [error] [exception.CDbException] exception 'CDbException' with message 'Table "inventory" does not have a column named "code_inventorry".' in C:\xampp\htdocs\PA\yii\framework\db\schema\CDbCommandBuilder.php:591
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php(162): CActiveRecord->findByAttributes(Array)
+#2 [internal function]: ExportInventoryController->actionExport('23411')
+#3 C:\xampp\htdocs\PA\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ExportInventoryController), Array)
+#4 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ExportInventoryController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Export')
+#14 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('exportInventory...')
+#15 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=exportInventory/Export&id=23411
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=exportInventory/Export&id=23411
+---
+2014/06/20 07:17:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Delete')
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('damagedInventor...')
+#9 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=damagedInventory/Delete&id=
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+---
+2014/06/20 07:17:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('damagedInventor...')
+#10 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=damagedInventory/Delete&id=
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+---
+2014/06/20 07:17:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('damagedInventor...')
+#10 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=damagedInventory/Delete&id=
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+---
+2014/06/20 07:21:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('damagedInventor...')
+#10 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=damagedInventory/Delete&id=29
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+---
+2014/06/20 07:23:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('damagedInventor...')
+#10 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=damagedInventory/Delete&id=29
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+---
+2014/06/20 07:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Kerusakan terlalu banyak dari peminjaman' in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\DamagedInventoryController.php:345
+Stack trace:
+#0 [internal function]: DamagedInventoryController->actionRusak('29')
+#1 C:\xampp\htdocs\PA\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DamagedInventoryController), Array)
+#2 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DamagedInventoryController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('rusak')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('damagedInventor...')
+#13 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+---
+2014/06/20 07:31:30 [error] [exception.CHttpException.Kerusakan terlalu banyak dari peminjaman] exception 'CHttpException' in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\DamagedInventoryController.php:345
+Stack trace:
+#0 [internal function]: DamagedInventoryController->actionRusak('29')
+#1 C:\xampp\htdocs\PA\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DamagedInventoryController), Array)
+#2 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DamagedInventoryController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('rusak')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('damagedInventor...')
+#13 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+---
+2014/06/20 07:31:48 [error] [exception.CHttpException.: Kerusakan terlalu banyak dari peminjaman] exception 'CHttpException' in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\DamagedInventoryController.php:345
+Stack trace:
+#0 [internal function]: DamagedInventoryController->actionRusak('29')
+#1 C:\xampp\htdocs\PA\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DamagedInventoryController), Array)
+#2 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DamagedInventoryController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('rusak')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('damagedInventor...')
+#13 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=damagedInventory/rusak&id=29
+---
+2014/06/20 07:38:11 [error] [exception.CHttpException.: Pengeluaran lebih banyak dari stock barang] exception 'CHttpException' in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php:163
+Stack trace:
+#0 [internal function]: ExportInventoryController->actionExport('Del/ASPA.A7.342...')
+#1 C:\xampp\htdocs\PA\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ExportInventoryController), Array)
+#2 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ExportInventoryController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Export')
+#12 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('exportInventory...')
+#13 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=exportInventory/Export&id=Del%2FASPA.A7.342%2F20%2F14
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=exportInventory/Export&id=Del%2FASPA.A7.342%2F20%2F14
+---
+2014/06/20 08:47:15 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php:111)
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CDataColumn.php(131): CDataColumn->evaluateExpression()
+#1 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#2 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#3 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#4 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#5 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#8 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(173): CGridView->run()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php(104): ExportInventoryController->widget()
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): ExportInventoryController->renderInternal()
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): ExportInventoryController->renderFile()
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): ExportInventoryController->renderPartial()
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php(280): ExportInventoryController->render()
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): ExportInventoryController->actionAdmin()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): ExportInventoryController->runAction()
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): ExportInventoryController->filterAccessControl()
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): ExportInventoryController->runActionWithFilters()
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): ExportInventoryController->run()
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CWebApplication->run()
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/admin
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php (111)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php (104)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php (280)
+2014/06/20 08:47:37 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php:111)
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CDataColumn.php(131): CDataColumn->evaluateExpression()
+#1 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#2 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#3 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#4 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#5 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#8 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(173): CGridView->run()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php(104): ExportInventoryController->widget()
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): ExportInventoryController->renderInternal()
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): ExportInventoryController->renderFile()
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): ExportInventoryController->renderPartial()
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php(280): ExportInventoryController->render()
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): ExportInventoryController->actionAdmin()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): ExportInventoryController->runAction()
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): ExportInventoryController->filterAccessControl()
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): ExportInventoryController->runActionWithFilters()
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): ExportInventoryController->run()
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CWebApplication->run()
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/admin
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php (111)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php (104)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php (280)
+2014/06/20 08:47:53 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php:111)
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CDataColumn.php(131): CDataColumn->evaluateExpression()
+#1 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#2 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#3 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#4 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#5 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#8 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(173): CGridView->run()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php(104): ExportInventoryController->widget()
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): ExportInventoryController->renderInternal()
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): ExportInventoryController->renderFile()
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): ExportInventoryController->renderPartial()
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php(280): ExportInventoryController->render()
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): ExportInventoryController->actionAdmin()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): ExportInventoryController->runAction()
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): ExportInventoryController->filterAccessControl()
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): ExportInventoryController->runActionWithFilters()
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): ExportInventoryController->run()
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CWebApplication->run()
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/admin
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php (111)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php (104)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php (280)
+2014/06/20 08:51:06 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php:110)
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CDataColumn.php(131): CDataColumn->evaluateExpression()
+#1 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#2 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#3 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#4 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#5 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#8 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(173): CGridView->run()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php(104): ExportInventoryController->widget()
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): ExportInventoryController->renderInternal()
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): ExportInventoryController->renderFile()
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): ExportInventoryController->renderPartial()
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php(280): ExportInventoryController->render()
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): ExportInventoryController->actionAdmin()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): ExportInventoryController->runAction()
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): ExportInventoryController->filterAccessControl()
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): ExportInventoryController->runActionWithFilters()
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): ExportInventoryController->run()
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CWebApplication->run()
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/admin
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php (110)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php (104)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php (280)
+2014/06/20 08:53:06 [error] [exception.CException] exception 'CException' with message 'Inventory and its behaviors do not have a method or closure named "findByAttribute".' in C:\xampp\htdocs\PA\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\db\ar\CActiveRecord.php(225): CComponent->__call('findByAttribute', Array)
+#1 C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php(110): CActiveRecord->__call('findByAttribute', Array)
+#2 C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php(110): Inventory->findByAttribute(Array)
+#3 C:\xampp\htdocs\PA\yii\framework\base\CComponent.php(606) : eval()'d code(1): ExportInventory->listInventory('Del/ASPA.B5.560...')
+#4 C:\xampp\htdocs\PA\yii\framework\base\CComponent.php(606): eval()
+#5 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CDataColumn.php(131): CComponent->evaluateExpression('$data->listInve...', Array)
+#6 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent(0, Object(ExportInventory))
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(589): CGridColumn->renderDataCell(0)
+#8 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow(0)
+#9 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#10 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#14 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php(105): CBaseController->widget('zii.widgets.gri...', Array)
+#16 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#17 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#18 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#19 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#20 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php(280): CController->render('admin', Array)
+#21 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): ExportInventoryController->actionAdmin()
+#22 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#31 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ExportInventory...')
+#32 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#33 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/admin
+HTTP_REFERER=http://localhost/PA/Update/PA_bisa/index.php?r=loan/gagal_approve&id=31
+---
+2014/06/20 08:53:22 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php:112)
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CDataColumn.php(131): CDataColumn->evaluateExpression()
+#1 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#2 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#3 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#4 C:\xampp\htdocs\PA\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#5 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#8 C:\xampp\htdocs\PA\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#9 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(173): CGridView->run()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php(105): ExportInventoryController->widget()
+#11 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\htdocs\PA\yii\framework\web\CBaseController.php(95): ExportInventoryController->renderInternal()
+#13 C:\xampp\htdocs\PA\yii\framework\web\CController.php(869): ExportInventoryController->renderFile()
+#14 C:\xampp\htdocs\PA\yii\framework\web\CController.php(782): ExportInventoryController->renderPartial()
+#15 C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php(280): ExportInventoryController->render()
+#16 C:\xampp\htdocs\PA\yii\framework\web\actions\CInlineAction.php(49): ExportInventoryController->actionAdmin()
+#17 C:\xampp\htdocs\PA\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): ExportInventoryController->runAction()
+#19 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): ExportInventoryController->filterAccessControl()
+#22 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): ExportInventoryController->runActionWithFilters()
+#25 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): ExportInventoryController->run()
+#26 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CWebApplication->run()
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=ExportInventory/admin
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\models\ExportInventory.php (112)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\views\exportInventory\admin.php (105)
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ExportInventoryController.php (280)
+2014/06/20 09:00:39 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 09:00:59 [warning] [application] Failed to set unsafe attribute "image" of "ImportInventory".
+in C:\xampp\htdocs\PA\Update\PA_bisa\protected\controllers\ImportInventoryController.php (72)
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
+2014/06/20 09:19:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('importInventory...')
+#9 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=importInventory/delete/1
+---
+2014/06/20 09:19:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('importInventory...')
+#10 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=importInventory/update/1
+---
+2014/06/20 09:19:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\PA\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('importInventory...')
+#10 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=importInventory/update/
+---
+2014/06/20 09:32:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Export')
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('exportInventory...')
+#9 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=exportInventory/Export&id=Del%2FASPA.B5.560%2F11%2F14
+---
+2014/06/20 09:39:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Export')
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('exportInventory...')
+#9 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=exportInventory/Export&id=Del%2FASPA.A7.342%2F20%2F14
+---
+2014/06/20 09:39:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('Export')
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('exportInventory...')
+#9 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=exportInventory/Export&id=Del%2FASPA.A7.342%2F20%2F14
+---
+2014/06/20 09:40:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\PA\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('importInventory...')
+#9 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=importInventory/create
+---
+2014/06/20 09:44:10 [error] [php] array_map(): Argument #2 should be an array (C:\xampp\htdocs\PA\yii\framework\web\auth\CAccessControlFilter.php:112)
+Stack trace:
+#0 C:\xampp\htdocs\PA\yii\framework\web\filters\CInlineFilter.php(58): InventoryController->filterAccessControl()
+#1 C:\xampp\htdocs\PA\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#2 C:\xampp\htdocs\PA\yii\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\xampp\htdocs\PA\yii\framework\web\CController.php(265): InventoryController->runActionWithFilters()
+#4 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(282): InventoryController->run()
+#5 C:\xampp\htdocs\PA\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\PA\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\PA\Update\PA_bisa\index.php(13): CWebApplication->run()
+REQUEST_URI=/PA/Update/PA_bisa/index.php?r=inventory/admin
+in C:\xampp\htdocs\PA\Update\PA_bisa\index.php (13)
